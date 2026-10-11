@@ -1,0 +1,12 @@
+beautifulsoup4==4.15.0
+bs4==0.0.2
+certifi==2026.7.22
+chardet==4.0.0
+idna==2.10
+mysql==0.0.3
+mysql-connector-python==26.7.0
+mysqlclient==2.3.0
+requests==2.25.1
+soupsieve==3.0.1
+typing_extensions==4.16.0
+urllib3==1.26.20
