@@ -8,7 +8,7 @@ insert_site = "INSERT INTO site VALUES (null,%s)"
 insert_product = "INSERT INTO product VALUES (null,%s, %s,%s, %s,%s, %s,%s,%s)"
 insert_category = "INSERT INTO category VALUES (null,%s,%s)"
 
-with open("data.json") as f: 
+with open("app/data_json/data.json") as f: 
     data = json.load(f)
 
 def get_prix(prix: str):

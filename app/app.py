@@ -1,16 +1,16 @@
 from app.scrapers.jumia import products_jumia
 from app.scrapers.spacenet import products_spacenet
-from tools import   menu
+from app.utils.tools import   menu
 from app.data_base.select import len_site
 from app.data_base.insert import update_dataBase
 import json 
-from tools import loading
+from app.utils.tools import loading
 
 
 _scraping=False 
 _update_database=False
 
-def main():
+def app():
     global _scraping
     global _update_database
     x=menu()
@@ -45,10 +45,3 @@ def main():
                     
                 
         x=menu()
-            
-
-            
-
-
-
-main()
