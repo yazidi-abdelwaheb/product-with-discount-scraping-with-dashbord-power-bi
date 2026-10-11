@@ -1,4 +1,4 @@
-from data_base.connect import connect
+from app.data_base.connect import connect
 
 
 mydb=connect()

@@ -1,8 +1,8 @@
-from scraping.jumia import products_jumia
-from scraping.spacenet import products_spacenet
+from app.scrapers.jumia import products_jumia
+from app.scrapers.spacenet import products_spacenet
 from tools import   menu
-from data_base.select import len_site
-from data_base.insert import update_dataBase
+from app.data_base.select import len_site
+from app.data_base.insert import update_dataBase
 import json 
 from tools import loading
 

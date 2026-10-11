@@ -1,5 +1,5 @@
-from data_base.connect import connect
-from data_base.select import len_site
+from app.data_base.connect import connect
+from app.data_base.select import len_site
 import json , time
 
 mydb=connect() 
