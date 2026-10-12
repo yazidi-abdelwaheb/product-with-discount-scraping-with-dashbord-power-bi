@@ -24,7 +24,7 @@ def get_prix(prix: str):
 def prodcut_liste(products,ids,idc) : 
     ls=[]
     for p in products:
-        note = float(p['note']) if p['note'] is not None else None
+        note = float(p['note']) if p['note'] is not None else 0
         prix_o=get_prix(p['prix_o'])
         prix_r=get_prix(p['prix_r'])
         product=(p['name'],prix_o,prix_r,note,p['img'],p['lien'],ids,idc)
